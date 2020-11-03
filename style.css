@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+
+  --bg-blue-indigo: #435661;
+  --hover-blue: #6f8b9b;
+  --bg-blue-ligth: #abbcc5;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.containerr {
+  background: #58717f;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.content {
+  background: var(--bg-blue-ligth);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.session {
+  width: 1024px;
+  padding: 20px;
+}
+
+.capa {
+    background: #58717f;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+  font-size: 76px;
+  color: #fff;
+  font-weight: 800;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 70px;
+  font-size: 35px;
+  color: var(--bg-blue-indigo);
+  font-weight: 800;
+  text-align: center;
+}
+
+p {
+  padding-top: 20px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box textarea {
+  height: 200px;
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.box > button {
+  height: 40px;
+  background: var(--bg-blue-indigo);
+  padding: 0px 15px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 800;
+  border-radius: 0px 0px 3px 3px;
+}
+
+.box .options {
+  display: flex;
+  justify-content: space-between;
+  background: var(--bg-blue-indigo);
+  height: 40px;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.options div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+.options label {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  padding: 0px 5px;
+  font-weight: 800;
+}
+
+.options input {
+    width: 14px;
+    
+}
+
+.options label:hover{
+  transition: color ease-in 0.2s;
+  color: #6f8b9b;
+}
+
+.box-footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0px;
+}
+
+.ml-2 {
+  margin-left: 5px;
+}
+
+.mr-2 {
+  margin-right: 5px;
+}
+
+.box-footer button {
+  height: 40px;
+  width: 100%;
+  background: var(--bg-blue-indigo);
+  padding: 0px 15px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 800;
+  border-radius: 3px;
+}
+
+button:hover {
+  transition: background-color ease-in 0.5s;
+  background: #6f8b9b;
+}
