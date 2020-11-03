@@ -127,6 +127,12 @@ p {
   color: #6f8b9b;
 }
 
+.label-textArea {
+  color: #fff;
+  font-weight: 800;
+  text-align: center;
+}
+
 .box-footer {
   display: flex;
   justify-content: space-between;
