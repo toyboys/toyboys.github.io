@@ -157,6 +157,8 @@ button:hover {
   background: #6f8b9b;
 }
 
+/* Mobile */
+
 @media only screen and (max-width: 460px) {
   .box {
     width: 90%;
@@ -164,16 +166,33 @@ button:hover {
     justify-content: center;
     flex-direction: column;
   }
+  .box .options {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background: var(--bg-blue-indigo);
+    height: 40px;
+    border-radius: 3px 3px 0px 0px;
+  }
+  .options div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px;
+  }
 
+  .options input {
+    display: none;
+  }
   .options label {
-    font-size: 12px;
+    font-size: 3px;
     display: flex;
     color: #fff;
     align-items: center;
-    padding: 0px 5px;
+    padding: 0px 2px;
     font-weight: 800;
   }
-
   h1 {
     font-size: 45px;
     color: #fff;
@@ -189,7 +208,6 @@ button:hover {
     justify-content: center;
     flex-direction: column;
   }
-
   .options label {
     font-size: 14px;
     display: flex;
@@ -198,7 +216,6 @@ button:hover {
     padding: 0px 5px;
     font-weight: 800;
   }
-
   h1 {
     font-size: 45px;
     color: #fff;
