@@ -156,3 +156,53 @@ button:hover {
   transition: background-color ease-in 0.5s;
   background: #6f8b9b;
 }
+
+@media only screen and (max-width: 460px) {
+  .box {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .options label {
+    font-size: 12px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    padding: 0px 5px;
+    font-weight: 800;
+  }
+
+  h1 {
+    font-size: 45px;
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .box {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .options label {
+    font-size: 14px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    padding: 0px 5px;
+    font-weight: 800;
+  }
+
+  h1 {
+    font-size: 45px;
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+  }
+}
