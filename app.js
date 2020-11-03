@@ -40,6 +40,7 @@ const app = new Vue({
             }
         },
         clear(){
+	        this.texto = ''
             localStorage.setItem('textoTextArea', '')
         },
         copy(){
